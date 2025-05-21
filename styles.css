@@ -1,0 +1,129 @@
+/* Diseño general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #121313;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    color: aliceblue;
+}
+
+main p{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 22px;
+}
+
+
+
+main h2,h3{
+    font-size: 40px;
+     font-family: 'Pixel Digivolve', sans-serif, Arial;
+     text-shadow: 2px 2px 4px black;
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Lista de enlaces */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(221, 216, 216);
+    font-weight: bold;
+}
+
+
+.header {
+    font-size: 26px;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative; /* Asegura que el contenido esté por encima */
+    text-align: center;
+    background-image: url('Imagenes/hack\ coding\ GIF\ by\ Matthew\ Butler.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 320px 20px;
+}
+
+/* Capa de oscurecimiento */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692); /* Negro con transparencia */
+    z-index: 0; /* Mantén la capa detrás del contenido */
+}
+
+/* Asegurar que el contenido esté por encima del fondo */
+.header * {
+    position: relative;
+    z-index: 1; /* Coloca el texto por encima de la capa oscura */
+}
+
+
+
+/* GRID en secciones */
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    align-items: center;
+    gap: 20px;
+    padding: 80px 80px 80px 80px;
+}
+
+
+/* Ajuste de texto */
+.text-content {
+    padding: 20px;
+}
+
+
+/* Ajuste de imagen */
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+#servicios h2{
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    background-color: #222222;
+    color: rgb(224, 224, 224);
+    padding: 5px 0px 5px 0px;
+}
+
+footer ul{
+     list-style: none; /* Quita los puntos de la lista */
+    padding: 5px;
+}
