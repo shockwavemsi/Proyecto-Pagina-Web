@@ -41,17 +41,30 @@
     </header>
 
     <main>
-
-        <!-- Sección "¿Quiénes Somos?" con Grid -->
-        <section id="empresa" class="grid-section">
-            <div class="text-content">
-                <h2 >¿Quiénes Somos?</h2>
-                <p>En el corazón de la innovación, somos un equipo apasionado por el desarrollo de software. Transformamos ideas en soluciones digitales que potencian negocios, optimizan procesos y llevan la tecnología al siguiente nivel. Con años de experiencia, nuestra misión es convertir desafíos en oportunidades a través de código inteligente y creatividad sin límites.</p>
-            </div>
-            <div class="image-content">
-                <img src="Imagenes/equipo.jpg" alt="Nuestro Equipo">
-            </div>
-        </section>
+        <!-- Sección "Formulario" centrada -->
+         <section id="formulario" class="form-section">
+        <h2>Formulario</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre *</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="Escribe tu Email" required>
+            
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu teléfono">
+            
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto" placeholder="Escribe tu asunto">
+            
+            <label for="mensaje">Mensaje *</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Deja aquí tu comentario..." required></textarea>
+            
+            <button type="submit">ENVIAR</button>
+        </form>
+        <p>* Los campos con asterisco son obligatorios.</p>
+    </section>
+        
 
     </main>
 
@@ -65,3 +78,4 @@
 
 </body>
 </html>
+
