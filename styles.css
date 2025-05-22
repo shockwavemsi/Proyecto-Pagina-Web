@@ -85,6 +85,50 @@ main h2,h3{
     z-index: 1; /* Coloca el texto por encima de la capa oscura */
 }
 
+/*Encabezado de cada pagina*/
+.header-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative; /* Asegura que el contenido esté por encima */
+    text-align: left;
+    background-color: #222222;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 70px 90px;
+}
+
+.img-header-section img{
+    width: 500px;
+    
+}
+
+.header-section p{
+    font-size: 20px;
+}
+
+
+/* Capa de oscurecimiento */
+.header-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692); /* Negro con transparencia */
+    z-index: 0; /* Mantén la capa detrás del contenido */
+}
+
+/* Asegurar que el contenido esté por encima del fondo */
+.header-section * {
+    position: relative;
+    z-index: 1; /* Coloca el texto por encima de la capa oscura */
+}
+
+
+
 
 
 /* GRID en secciones */
