@@ -3,44 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios de Programación</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap">
+    <title>Contacto | Soporte y Atención</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo"><img src="/Imagenes/redragon-logo.png" alt="Logo"></div>
+        <div class="logo"><img src="Imagenes/redragon-logo.png" alt="Logo"></div>
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="">Servicios</a></li>
-            <li><a href="">Contacto</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
-    <header class="header-section">
-        <div>
-            <h1>Contacto</h1>
-            <p>
-            ¡Nos encantaría saber de ti! Ya sea para resolver dudas, conocer más sobre nuestros servicios o simplemente decir hola, estamos aquí para ayudarte.
-            <br>
-            📩 Déjanos tu mensaje y nuestro equipo se pondrá en contacto contigo lo antes posible. 
-            <br>
-            📞 ¿Prefieres llamarnos? Estamos disponibles para atenderte con gusto. 
-            <br>
-            📍 Si quieres visitarnos, ¡ven a conocernos en nuestra ubicación!
-            <br>
-            Porque cada mensaje cuenta, y el tuyo es importante para nosotros. 😊
-            </p>
-        </div>
-
-        <div class="img-header-section">
-            <img src="/Imagenes/persona-contacto.png" alt="">
-        </div>
-        
+    <header class="header">
+        <h1>Contáctanos</h1>
+        <p>Envíanos tus preguntas y te responderemos lo antes posible.</p>
     </header>
 
     <main>
+<<<<<<< HEAD
         <!-- Sección "Formulario" centrada -->
          <section id="formulario" class="form-section">
         <h2>Formulario</h2>
@@ -66,15 +50,55 @@
     </section>
         
 
+=======
+        <section id="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="procesar.php" method="POST">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
+                
+                <label>Email:</label>
+                <input type="email" name="email" required>
+                
+                <label>Mensaje:</label>
+                <textarea name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+>>>>>>> 7eb8d48 (Actualización general)
     </main>
 
-    <footer id="contacto">
-        <h2>Contacto</h2>
-        <ul>
-            <li>Teléfono: 1111111</li>
-            <li>Email: contacto@empresa.com</li>
-        </ul>
-    </footer>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h2>Contacto</h2>
+            <ul>
+                <li>Teléfono: 1111111</li>
+                <li>Email: contacto@empresa.com</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h2>Enlaces</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="soporte.html">Soporte</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h2>Síguenos</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
