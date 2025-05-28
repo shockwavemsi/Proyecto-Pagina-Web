@@ -16,6 +16,91 @@ body {
     justify-content: space-between;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
+#servicios a {
+    text-decoration: none; /* Quita el subrayado */
+}
+
+#servicios a:hover {
+    color: #ff3131; /* Cambia el color a rojo */
+    font-size: 2.2em; /* Aumenta el tamaño un poco */
+    font-weight: bold; /* Hace el texto más grueso */
+    transition: all 0.3s ease; /* Suaviza la transición */
+}
+#servicios a {
+    color: white; /* Cambia el color del texto a blanco */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight:bold;
+    font-size: 1.9em;
+}
+#servicios p {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+}
+/* SOPORTE*/
+/* Aumenta el tamaño de los títulos */
+#soporte-tecnico h2 {
+    font-size: 2.5em; /* Tamaño más grande */
+    font-weight: bold; /* Mantiene el peso del texto */
+}
+
+/* Aumenta el tamaño de los párrafos */
+#soporte-tecnico p {
+    font-size: 1.2em; /* Tamaño más grande */
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+#soporte-tecnico ul li {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    margin-bottom: 10px; /* Agrega espacio entre los elementos */
+}
+/* empresa*/
+#empresa h2 {
+    font-size: 2.5em; /* Hace el título más grande */
+    font-weight: bold; /* Mantiene el peso del texto */
+    margin-bottom: 20px; /* Agrega espacio entre título y texto */
+}
+
+#empresa p {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    line-height: 1.6; /* Mejora la legibilidad con más espacio entre líneas */
+}
+
+#empresa ul li {
+    font-size: 1.2em; /* Aumenta el tamaño de los elementos de la lista */
+    margin-bottom: 10px; /* Separa los elementos entre sí */
+}
+/* mobiles*/
+#servicios-moviles h2 {
+    font-size: 2.5em; /* Hace los títulos más grandes */
+    font-weight: bold; /* Mantiene el peso del texto */
+    margin-bottom: 20px; /* Agrega separación entre título y texto */
+}
+
+#servicios-moviles p {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    line-height: 1.6; /* Mejora la legibilidad con más espacio entre líneas */
+}
+
+#servicios-moviles ul li {
+    font-size: 1.2em; /* Aumenta el tamaño del texto en listas */
+    margin-bottom: 10px; /* Separa los elementos entre sí */
+}
+/*webCorporativa*/
+#web-corporativa h2 {
+    font-size: 2.5em; /* Hace los títulos más grandes */
+    font-weight: bold; /* Mantiene el peso del texto */
+    margin-bottom: 20px; /* Agrega separación entre título y texto */
+}
+
+#web-corporativa p {
+    font-size: 1.2em; /* Aumenta el tamaño del texto */
+    line-height: 1.6; /* Mejora la legibilidad con más espacio entre líneas */
+}
+
+#web-corporativa ul li {
+    font-size: 1.2em; /* Aumenta el tamaño del texto en listas */
+    margin-bottom: 10px; /* Separa los elementos entre sí */
+}
+
+
 
 /* Logo */
 .logo img {
