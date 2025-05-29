@@ -430,5 +430,6 @@ footer {
 .image-gallery img{
     width: 800px;
     margin-left: 600px;
+    margin-bottom: 60px;
 }
 
