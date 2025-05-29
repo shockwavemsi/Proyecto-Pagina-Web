@@ -149,7 +149,8 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 200px 20px;
+    margin-top: 50px;
+    padding: 90px ;
 }
 
 /* Capa de oscurecimiento */
@@ -231,7 +232,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    padding: 60px 10px 60px 10px;
 }
 
 form {
