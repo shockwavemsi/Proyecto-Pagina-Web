@@ -415,4 +415,20 @@ footer {
     transform: scale(1.05); /* Efecto de aumento */
 }
 
+#galeria h2{
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+#galeria p{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.image-gallery img{
+    width: 800px;
+    margin-left: 600px;
+}
 
