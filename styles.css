@@ -3,19 +3,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0c0c0c;
+    background-color: #0f0f0f;
     color: aliceblue;
 }
 
 /* Barra de navegación */
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 97%;
     background-color: #121313;
     padding: 15px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Asegura que la navbar esté sobre otros elementos */
 }
+
 
 
 #servicios a {
@@ -143,7 +149,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 100px 20px;
+    padding: 200px 20px;
 }
 
 /* Capa de oscurecimiento */
