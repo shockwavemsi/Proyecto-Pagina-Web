@@ -395,4 +395,24 @@ footer {
     color: #ff3131;
     transform: scale(1.2);
 }
+.image-content-especial {
+    display: flex;
+    justify-content: center; /* Centra la imagen */
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-content-especial img {
+    width: 50%; /* Hace la imagen más grande */
+    max-width: 600px; /* Ajusta el tamaño máximo */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.image-content-especial img:hover {
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
 
