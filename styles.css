@@ -16,6 +16,8 @@ body {
     justify-content: space-between;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 #servicios a {
     text-decoration: none; /* Quita el subrayado */
 }
@@ -137,7 +139,7 @@ body {
     font-family: 'JetBrains Mono', monospace;
     position: relative; /* Asegura que el contenido esté por encima */
     text-align: center;
-    background-image: url('Imagenes/hack\ coding\ GIF\ by\ Matthew\ Butler.gif');
+    background-image: url('Imagenes/Fondos/hack\ coding\ GIF\ by\ Matthew\ Butler.gif');
     background-size: cover;
     background-position: center;
     color: white;
@@ -171,6 +173,24 @@ body {
     padding: 70px 90px;
     text-align: left;
 }
+
+/*Sección del contenido de cada página*/
+.text-content{
+    padding: 110px 110px 110px 110px;
+}
+
+.text-content h2{
+    font-size: 30px;
+}
+.text-content p{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+}
+.text-content ul{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+}
+
 
 /* Imágenes de encabezado */
 .img-header-section img {
